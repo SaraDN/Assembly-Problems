@@ -1,0 +1,43 @@
+Nucuta Diana 324 CC
+Tema 2 IOCLA
+
+La problema 1
+
+am decrementat lungimea ca sa 
+nu mai scad acel i, 
+care la mine e eax. Am facut xor 
+intre elementele dorite 
+si am salvat in ciphertext
+
+La problema 2
+
+ nu prea imi ajungeau registrele asa 
+ca am mai dat push si pop. Am facut 
+la inceput diferenta anilor.
+Apoi am vazut si de luni si de zile daca cumva e cazul 
+sa scad un an ca ne aflam inainte 
+de ziua de nastere.
+Daca anul ne da negativ atunci punem 0 
+in ages altfel punem varsta.
+
+La problema 3 
+
+m-am sitat pe pozitia elementului pe care
+ma aflu din keys, in haystack si merg din lungimea cheii
+in lungimea cheii pana la final si salvez caracterele
+la fiecare iteratie.
+
+La problema 4
+
+intai caut adresa in tag, shiftata cu 3 biti, in 
+vectorul tags sa vad daca exista. Daca exista, 
+merg pe elementul din cache si salvez in reg. 
+Daca nu, pun in tags la to_replace tag-ul si dupa
+tot pe linia to_replace din cache pun tag-ul de la 000
+la 111 in coada. Salvez in reg adresa.
+
+Am stat o saptamana pe tema, m-a ajutat sa scriu intai in
+C codul si dupa l-am "tradus" linie cu linie in assembly,
+la toate pb mai putin la 4, unde am facut direct un pseudocod
+pe care apoi l-am pus in assembly.
+
